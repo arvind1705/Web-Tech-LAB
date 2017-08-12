@@ -1,6 +1,6 @@
 body{
-	background-color: pin;
-}
+	background-color: aquamarine;
+
 
 .p1{
     border-style: solid;
@@ -8,5 +8,54 @@ body{
     border-top-style: dotted;
     border-right-style: solid;
     border-bottom-style: dotted;
+ background-color: white;
+
     border-left-style: solid;
+}
+
+.leaf {
+list-style-type: none;
+background: url('http://www.techforluddites.com/images/leaf_icon.jpg') no-repeat top left;
+height: 46px;
+padding-left: 40px;
+}
+
+.taka {
+	float: right;
+margin: 10px;
+}
+#taku{
+	font-size: 32pt;
+	font-family: arial;
+}
+
+h2.w{
+	color: blue;
+}
+h2.v{
+	font-size: 30pt;
+}
+li.red{
+	color: red;
+}
+li.green{
+	color:green;
+
+}
+li.blue{
+	color: blue;
+}
+a.mar
+{
+	margin-right: 2cm;
+}
+.a1{
+	background-color: red;
+}
+.a2{
+	background-color: purple;
+}
+.a3
+{
+	background-color: white;
 }
