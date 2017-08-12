@@ -1,62 +1,86 @@
-body{
-	background-color: aquamarine;
-
+body {
+    background-color: aquamarine;
 }
 
-.p1{
+.p1 {
     border-style: solid;
     border-color: green;
     border-top-style: dotted;
     border-right-style: solid;
     border-bottom-style: dotted;
- background-color: white;
-
     border-left-style: solid;
+    background-image: url('star-image2.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: 0 0 25px;
 }
 
 .leaf {
-list-style-type: none;
-background: url('http://www.techforluddites.com/images/leaf_icon.jpg') no-repeat top left;
-height: 46px;
-padding-left: 40px;
+    list-style-type: none;
+    background: url('http://www.techforluddites.com/images/leaf_icon.jpg') no-repeat top left;
+    height: 46px;
+    padding-left: 40px;
 }
 
 .taka {
-	float: right;
-margin: 10px;
-}
-#taku{
-	font-size: 32pt;
-	font-family: arial;
-}
-
-h2.w{
-	color: blue;
-}
-h2.v{
-	font-size: 30pt;
-}
-li.red{
-	color: red;
-}
-li.green{
-	color:green;
+    float: right;
+    margin: 10px;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 
 }
-li.blue{
-	color: blue;
+.taka:hover {
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
 }
-a.mar
+#taku {
+    font-size: 32pt;
+    font-family: arial;
+}
+#taku:hover
 {
-	margin-right: 2cm;
+	color: white;
+
 }
-.a1{
-	background-color: red;
+
+h2.w {
+    color: blue;
 }
-.a2{
-	background-color: purple;
+
+h2.v {
+    font-size: 30pt;
 }
-.a3
-{
-	background-color: white;
+
+li.red {
+    color: red;
+}
+
+li.green {
+    color: green;
+}
+
+li.blue {
+    color: blue;
+}
+
+a.mar {
+    margin-right: 2cm;
+}
+
+.a1 {
+    background-color: red;
+}
+
+.a2 {
+    background-color: purple;
+}
+
+.a3 {
+    background-color: white;
+}
+
+.a4 {
+    font-size: 20pt;
 }
