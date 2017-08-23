@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>
+        Vowel
+    </title>
+    <script type="text/javascript" src="xhtml-document-write.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+
+    function vowel()
+    {
+    var chr = "";
+    var str = prompt("Enter the string", "");
+
+    str = str.toUpperCase();
+
+    for (var i = 0; i&lt; str.length; i++) {
+        chr = str.charAt(i);
+
+        if (chr == 'A' || chr == 'E' || chr == 'I' || chr == 'O' || chr == 'U')
+            break;
+    }
+
+    if (i &lt; str.length)
+        document.write("The position of the left most vowel is " + (i + 1) + " &lt; br /&gt; ");
+
+    else
+        document.write("No vowel found");
+}
+
+    </script>
+<button onclick="vowel()">Vowel</button>
+</body>
+</html>

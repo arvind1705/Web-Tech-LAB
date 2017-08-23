@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>
+        Fibonacci Series
+    </title>
+    <script type="text/javascript" src="xhtml-document-write.js"></script>
+</head>
+
+<body>
+    <h1>Fibonacci</h1>
+    <script type="text/javascript">
+    series = [];
+    i = 0;
+    signature = [0, 1],
+        n = prompt('Please enter the no. of Fibonacci')
+
+    series.push(signature[0], signature[1])
+    for (; i &lt;= n; i++)
+        series.push(series[i] + series[i + 1])
+    document.write(series.slice(0, n)
+        .join("&lt;br&gt;"));
+    </script>
+</body>
+
+</html>
